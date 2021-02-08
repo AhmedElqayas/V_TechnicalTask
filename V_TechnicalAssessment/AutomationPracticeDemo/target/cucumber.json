@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T10:22:43.894Z",
+        "line": 8,
+        "name": "create new user successfully",
+        "description": "",
+        "id": "create-new-account-user;create-new-user-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "the user at the website authentication page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the user enters a valid email",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "the user can create a new user account",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create New Account User",
+    "description": "  In order to use the site capabilities\n  As a new user of the website\n  I need to create an account",
+    "id": "create-new-account-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/CreateNewUser.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T10:22:44.071Z",
+        "line": 7,
+        "name": "order a product successfully",
+        "description": "",
+        "id": "order-a-specific-product;order-a-product-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "the user enters a registration email",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the user create an account",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "complete the purchase process",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "the user can find the product in the order history",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Order a specific product",
+    "description": "  In order to order a product\n  As a new user\n  I need to create an account and complete the purchase process",
+    "id": "order-a-specific-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/OrderProduct.feature",
+    "tags": []
+  }
+]

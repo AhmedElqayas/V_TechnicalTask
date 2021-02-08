@@ -1,0 +1,13 @@
+pages\ShoppingAddressPage.class
+pages\ShoppingCartPage.class
+pages\OrderConfirmationPage.class
+pages\PayByBankWirePage.class
+pages\AuthenticationPage.class
+pages\CreateAccountPage.class
+pages\ProductPage.class
+pages\HomePage.class
+pages\OrderHistoryPage.class
+pages\PaymentPage.class
+pages\WomenBlousesPage.class
+pages\ShippingPage.class
+pages\MyAccountPage.class
